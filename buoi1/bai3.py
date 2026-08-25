@@ -1,5 +1,5 @@
-width = int(input("Nhập chiều dài: "))
-length = int(input("Nhập chiều rộng: "))
+width = int(input("Nhập chiều rộng: "))
+length = int(input("Nhập chiều dài: "))
 
 S = width * length
 
