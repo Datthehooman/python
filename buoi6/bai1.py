@@ -1,23 +1,23 @@
 product = {
     "id": 1,
-    "name": "dat",
-    "price": 100,
-    "quantity": 5
+    "name": "Laptop",
+    "price": 15000000,
+    "quantity": 10,
 }
 
-#1. In tên
+# 1. In tên sản phẩm
 print(product["name"])
 
-#2. Đổi giá
-product["price"] = 200
+# 2. Đổi giá
+product["price"] = 14000000
 print(product["price"])
 
-#3. thêm category
-product["category"] = "sinh vien"
+# 3. Thêm category
+product["category"] = "Điện tử"
 print(product["category"])
 
-#4. Xóa quantity
+# 4. Xóa quantity
 del product["quantity"]
 
-#5. In product
+# 5. In product
 print(product)
